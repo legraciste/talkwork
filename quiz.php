@@ -1,0 +1,34 @@
+<?php
+    Q1=$_POST['Q1'];
+    Q2=$_POST['Q2'];
+    Q3=$_POST['Q3'];
+    Q4=$_POST['Q4'];
+    Q5=$_POST['Q5'];
+    Q6=$_POST['Q6'];
+    Q7=$_POST['Q7'];
+    Q8=$_POST['Q8'];
+    Q9=$_POST['Q9'];
+    Q10=$_POST['Q10'];
+    $cpt=0;
+    if(Q1=="int v"){
+        $cpt++;
+    }elseif(Q2){
+        $cpt++
+    }elseif(Q3){
+        $cpt++;
+    }elseif(Q4){
+        $cpt++;
+    }elseif(Q5){
+        $cpt++;
+    }elseif(Q6){
+        $cpt++;
+    }elseif(Q7){
+        $cpt++;
+    }elseif(Q8){
+        $cpt++;
+    }elseif(Q9){
+        $cpt++;
+    }elseif(Q10){
+        $cpt++;
+    }
+?>

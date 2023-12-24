@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: skyblue;
+    height: 10%;
+}
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+}
+h3{
+    color: white;
+    margin-top: -3.5%;
+    margin-left: 7%;
+}
+div.logop{
+    background-color: white;
+    width: 70px;
+    height: 60px;
+}
+img{
+    height: 60px;
+    width: 60px;
+    margin-left: 7%;
+}
+.nav{
+    margin-right: 1%;
+}
+.nav ul{
+    display: flex;
+    float: right;
+    margin-top: 1.5%;
+}
+.nav ul li{
+    list-style: none;
+    padding-left: 15px;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+figure{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20%;
+}
+img.logo{
+    height: 50px;
+    width: 50px;
+    margin-top: -2%;
+}
+button:hover{
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+button{
+    border: none;
+    background-color: skyblue;
+    border-radius: 5px;
+    height: 30px;
+    width: 135px;
+    font-weight: bold;
+    color: white;
+    margin-top: 1%;
+    margin-left: 0.9%;
+    transition: transform .1s;
+}
+button a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: transform .1s;
+}
+svg{
+    height: 100px;
+    width: 100px;
+    margin-top: 13%;
+}
+#singup{
+    border: 10px solid white;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-left: 43.6%;
+    margin-top: -10%;
+}
